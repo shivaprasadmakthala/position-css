@@ -1,0 +1,53 @@
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+div{
+    font-family: "Helvitica Neue", Helvetica, Arial, sans-serif;
+    background: rgb(125, 255, 50);
+    background-size: cover;
+    font-size:30px;
+    font-weight: bolder;
+    border: 3px solid red;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 35, 35);
+    border-radius: 20px;
+}
+
+.static{
+    position:static;
+    top: 400px;
+}
+.relative{
+    position:relative;
+    left:400px;
+}
+.ancestor{
+    width:500px;
+    height:400px;
+    position:relative;
+    left:400px;
+    top:200px;
+}
+.absolute{
+    position:absolute;
+    left:500px;
+    top:600px;
+}
+.fixed{
+    position:fixed;
+    top:0px;
+    right:0px;
+}
+
+.sticky{
+    width:50%;
+    top:20px;
+    position:sticky;
+}
+
+
+
